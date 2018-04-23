@@ -1,0 +1,49 @@
+
+@media screen and (max-width: 450px) {
+    .content{
+          position:absolute;
+          width:100%;
+          display:table cell;
+          top:20%;
+        }
+    .content h1{
+          font-family:'Oswald', sans-serif;
+          font-size:50px;
+          line-height:100%;
+          margin-bottom:50px;
+          color:#fff;
+          float: right;
+          width: 80%; !important
+        } 
+    .btn_slider{
+        font-family:'Open-Sans', sans-serif;
+        font-size:135%; 
+        font-weight:600;
+        color:#fff;
+        text-transform:uppercase;    
+        text-decoration:none;
+        border:solid #fff;
+        padding:10px 20px;
+        border-radius:9px;        
+        transition: all 0.3s ease; 
+        clear: both;
+        float:right;
+        width: 300px;
+        margin-right: 20px;
+        text-align: center;
+                
+        } 
+
+
+
+
+    
+}
+    
+    @media screen and (max-width: 650px){
+        .user{
+            visibility: hidden;
+            display: none;
+        }
+        
+    }
