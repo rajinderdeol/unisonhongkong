@@ -1,0 +1,106 @@
+@media (min-width: 768px) {
+	.footer-bs .footer-nav, .footer-bs .footer-social, .footer-bs .footer-ns { border-left:solid 1px rgba(255,255,255,0.10); }
+}
+
+
+@media screen and (max-width: 786px) {
+    .content{
+          position:absolute;
+          width:100%;
+          display:table cell;
+          top:20%;
+        }
+    .content h1{
+          font-family:'Oswald', sans-serif;
+          font-size:50px;
+          line-height:100%;
+          margin-bottom:50px;
+          color:#fff;
+          float: right;
+          width: 80%;
+        } 
+    .btn_slider{
+        font-family:'Open-Sans', sans-serif;
+        font-size:135%; 
+        font-weight:600;
+        color:#fff;
+        text-transform:uppercase;    
+        text-decoration:none;
+        border:solid #fff;
+        padding:10px 20px;
+        border-radius:9px;        
+        transition: all 0.3s ease; 
+        clear: both;
+        float:right;
+        width: 300px;
+        margin-right: 20px;
+        text-align: center;
+                
+        } 
+    #row2-2 {
+        margin-top: 10px;
+    }
+
+    
+    
+}
+
+@media screen and  (min-width: 1200px) {
+    #about-row1 {
+     background-color: #F8EB07; !important;
+     height: 325px;
+    padding-top: 65px;
+
+    }
+
+
+
+    #about-row2 {
+        background-color: white; !important;
+        height: 350px;
+        padding: 40px; 
+
+
+    }
+
+
+
+    #about-row3 {
+         background-color: #F8EB07; !important;
+         height: 325px;
+        padding-top: 15px;
+
+        }
+
+    #about-row4 {
+         background-color: white; !important;
+         height: 325px;
+        padding-top: 25px;
+
+    }
+
+
+
+}
+
+@media screen and  (min-width: 769px) {
+    #row3-2{
+        visibility: visible;
+    }
+    
+    #row3-resp{
+        visibility: hidden;
+        display: none;
+    }
+}
+@media screen and  (max-width: 768px) {
+    #row3-resp{
+        visibility: visible;
+        margin-left: 20px;
+    }
+    
+    #row3-2{
+        visibility: hidden;
+        display: none;
+    }
+}

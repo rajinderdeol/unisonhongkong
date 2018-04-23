@@ -1,0 +1,32 @@
+
+@media screen and (max-width: 450px) {
+    #donationsection {
+            float: right;
+            width: 380px;
+            text-align: center;
+            margin-top: -30px;
+        }
+    .donatelayer{
+            background-image: none;
+            background-color: #351A08;
+        }
+    #donationbox {
+            background-color: white;
+            text-align: center;
+            width: 380px;
+            height: 300px;
+        }
+
+
+
+    
+}
+    
+    @media screen and (max-width: 650px){
+        .user{
+            visibility: hidden;
+            display: none;
+        }
+        
+    }
+
